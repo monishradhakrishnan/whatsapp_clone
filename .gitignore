@@ -1,0 +1,20 @@
+# root dependencies
+node_modules/
+
+# backend dependencies
+backend/node_modules/
+
+# env files
+.env
+backend/.env
+
+# expo / react native
+.expo/
+.expo-shared/
+
+# logs
+npm-debug.log*
+yarn-error.log*
+
+# uploads (optional – usually not pushed)
+backend/uploads/
