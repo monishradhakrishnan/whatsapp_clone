@@ -4,7 +4,7 @@ import { Alert,View, Text, TextInput, TouchableOpacity} from "react-native"
 export default function LoginScreen(){
     const[phone, setPhone]=useState("+91");
     const router=useRouter();
-    //whatsapp phone number validation
+    // phone number validation
     const isValidNumber = /^\+\d{2}\s?\d{10}$/.test(phone);
 
     const handleNext = () => {
@@ -21,7 +21,7 @@ export default function LoginScreen(){
             <Text className="text-3xl font-bold text-gray-900 mb-4">Enter Your Phone Number</Text>
 
             {/*Description*/}
-            <Text className="text-gray-500 text-lg text-center mb-6">WhatsApp will send an SMS to verify your Number</Text>
+            <Text className="text-gray-500 text-lg text-center mb-6">We will send an SMS to verify your Number</Text>
             
             {/*Phone Number Input*/}
             <TextInput
